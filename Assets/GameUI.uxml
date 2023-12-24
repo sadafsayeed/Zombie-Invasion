@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="HealthBarBackground" style="flex-grow: 0; width: 434px; height: 205px; -unity-background-scale-mode: scale-to-fit; background-image: url(&apos;project://database/Assets/Art/Ducko/UI/UIHealthFrame.png?fileID=2800000&amp;guid=b47cdbd2062c5e64ba5a0bf3f6b045b1&amp;type=3#UIHealthFrame&apos;);">
+        <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1; width: 100%; height: 100%;">
+            <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Art/Ducko/UI/UIHealthBar.png?fileID=2800000&amp;guid=39fe000f2b6d9d04b93d6a76310e29aa&amp;type=3#UIHealthBar&apos;); width: 234px; height: 66px; position: absolute; top: 64px; left: 179px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
